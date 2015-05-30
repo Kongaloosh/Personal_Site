@@ -24,6 +24,14 @@ h1, h2, h3 {
     margin: 0;
 }
 
+h2{
+	font-size: 32px;
+}
+
+a {
+	transition: all 0.5s;
+}
+
 .content-wrapper {
 	max-width: 1000px;
 	width: 90%;
@@ -38,10 +46,14 @@ h1, h2, h3 {
 }
 
 .download {
-    position: fixed;
-    top: 0;
-    right: 0;
-    display: inline-block;
+  background: #16a085;
+  position: fixed;
+  color: white;
+  top: 0;
+  right: 0;
+  display: block;
+  padding: 18px;
+  text-decoration: none;
 }
 
 .item {
@@ -80,9 +92,9 @@ header {
 
 .profile h2 {
     border: none;
-    background: #2980b9;
     display: inline-block;
     padding: 10px 20px;
+    background: #16a085;
 }
 
  .profile img {
@@ -104,7 +116,13 @@ header {
 .work-experience h1,
 .work-experience h2{
 	font-family: Courier;
-	/*color:#F5F5F0;*/
+	color:#F5F5F0;
+}
+
+.work-experience h2{
+	border-bottom: 1px solid #ccc;
+	margin-bottom: 30px;
+	color: #16a085;
 }
 
 .work-experience{
@@ -123,8 +141,6 @@ header {
      float: right;
  }
 
-
-
 /*DETAILS*/
 .details {
 	font-family: Courier;	
@@ -139,7 +155,7 @@ header {
 }
 
 .list-float{
-	float: left;
+	/*float: left;*/
 	width: 25%; 
 }
 
@@ -147,6 +163,12 @@ header {
 .skills h2,
 .skills h3{
 	text-align: center;
+}
+
+.skills h2{
+	border-bottom: 1px solid #ccc;
+	margin-bottom: 30px;
+	color: #16a085;
 }
 
 .skills .columns {
@@ -160,15 +182,71 @@ header {
     padding: 0;
 }
 
+.list-float{
+	display: inline;
+	text-align: center;
+}
+
+.skills-circles-ul{
+	text-align: center;
+}
+
+.skills-circles ul li {
+  	height: 150px;
+  	width: 150px;
+  	line-height: 150px;
+  	display: inline-block;
+  	padding: 0 10px;
+  	border: 2px solid #16a085;
+  	border-radius: 50%;
+  	background: black;
+}
+
+.skills-circles span {
+  line-height: normal;
+  display: inline-block;
+  vertical-align: middle;
+}
+
 /*EDUCATION SECTION*/
 .education{
  	background: #FFFFFF;
 }
 
+.education h2{
+	border-bottom: 1px solid #ccc;
+	margin-bottom: 30px;
+	color: #16a085;
+}
+
 /*CONTACT SECTION*/
+
+.contact h2{
+	border-bottom: 1px solid #ccc;
+	margin-bottom: 30px;
+	color: #16a085;
+}
+
 .contact{
 	color:#FFFFFF;
 	background: #000000;
  	/*background: rgba(0,0,0,0.1);*/
+}
+
+.social {
+	font-family: "roboto";
+  	width: 50%;
+  	float: right;
+  	text-align: right;
+  	font-size: 50px;
+}
+
+.contact a{
+	color: #16a085;
+	padding-left: 10%;
+}
+
+.contact a:hover{
+	color: white;
 }
 
