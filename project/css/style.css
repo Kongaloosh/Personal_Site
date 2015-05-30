@@ -1,0 +1,87 @@
+
+/* EVERYTHING */
+/*------------*/
+
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+p{
+	font-family: "roboto";
+}
+
+h1, h2, h3 {
+    font-weight: 400;
+    margin: 0;
+}
+
+.content-wrapper {
+	max-width: 1000px;
+	width: 90%;
+	margin: 0 auto;
+	padding: 60px 0;
+}
+
+/* HEADER */
+header {
+    text-align: center;
+    padding: 150px 0;
+    font-family: Courier, Helvetica;
+	background: url(../images/alhambra-desat.jpg) no-repeat fixed 50%;
+	background-size: cover;
+    color:#EBFFE0;
+}
+
+/*PROFILE SECTION*/
+.profile{
+	background: #009933;
+}
+
+.profile h2:hover {
+  transform: rotate(4deg);
+}
+
+.profile h1,
+.profile h3,
+.profile h2{
+	font-family: Courier;
+	/*color:#F5F5F0;*/
+}
+
+ .profile img {
+     float: left;
+     width: 27%;
+     margin-right: 3%;
+ }
+
+
+/*WORK SECTION*/
+.work-experience h1,
+.work-experience h2{
+	font-family: Courier;
+	/*color:#F5F5F0;*/
+}
+
+.details {
+	font-family: Courier;	
+}
+
+/*SKILLS SECTION*/
+.skills{
+	/*color:#F5F5F0;*/
+}
+
+/*EDUCATION SECTION*/
+.education{
+	/*color:#F5F5F0;*/
+}
+
+/*CONTACT SECTION*/
+.contact{
+	/*color:#F5F5F0;*/
+}
+
