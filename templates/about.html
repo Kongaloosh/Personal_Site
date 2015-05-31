@@ -6,6 +6,12 @@
 <header>
 <h1>Alex Kearney</h1>
 <h2>I make things.</h2>
+    <a href="#experience">Experience</a>
+    <a href="#projects">Projects</a>
+    <a href="#awards">Trophy Cabinet</a>
+    <a href="#education">Education</a>
+    <a href="#groups">Groups</a>
+    <a href="#code">Contact</a>
 </header>
 {% endblock %}
 
@@ -73,14 +79,27 @@
     <section class="projects">
         <div class="content-wrapper">
             <h2>Things I've made.</h2>
-            <img src="{{ url_for('static', filename = 'img/profile-generic.jpg') }}">
+
         </div>
     </section>
 
     <!-- AWARDS -->
     <section class="awards">
-        <div class="content-wrapper">
+        <div class="content-wrapper clearfix">
             <h2>Things I've won.</h2>
+
+            <div class="details">
+                <h3>Google Anita Borg Memorial Scholarship: EMEA</h3>
+                <h3>Lovelace Colloquium: People's Choice Award.</h3>
+                <h3>Most Surprising Project: Object Oriented Programming Competition.</h3>
+                <h3>Advanced Placement Scholar & Advanced Placement Scholar With Distinction</h3>
+            </div>
+            <div class="description">
+                <p>
+                    <strong>A scholarship for 40 women in techonology from Europe, the Middle East, and Africa</strong>
+
+                </p>
+            </div>
         </div>
     </section>
 
@@ -127,7 +146,7 @@
     <!-- EDUCATION -->
     <section class="education">
         <div class="content-wrapper">
-            <h2>Where I've studied.</h2>
+            <h2>Things I've studied.</h2>
 
             <div class="item">
                 <h3>University of Edinburgh, expected 2016</h3>

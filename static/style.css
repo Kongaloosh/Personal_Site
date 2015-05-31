@@ -186,6 +186,47 @@ header {
 	display: inline;
 	text-align: center;
 }
+/*PROJECT SECTION*/
+.projects{
+ 	background: #FFFFFF;
+}
+
+ .work-experience .details {
+     width: 30%;
+     float: left;
+ }
+
+ .work-experience .description {
+     width: 70%;
+     float: right;
+ }
+
+/*AWARD SECTION*/
+.awards{
+ 	background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)),url(img/anita-borg-scholarship.jpg) no-repeat fixed;
+    background-size: cover;
+  	color:#EBFFE0;
+}
+
+.awards .details {
+     width: 30%;
+     float: left;
+}
+
+.awards .description {
+     width: 70%;
+     float: right;
+}
+
+.award-left{
+     width: 70%;
+     float: left;
+}
+
+.award-right{
+     width: 30%;
+     float: right;
+}
 
 /*EDUCATION SECTION*/
 .education{
