@@ -30,6 +30,9 @@ h2{
 
 a {
 	transition: all 0.5s;
+	text-decoration: none;
+	color: #16a085;
+
 }
 
 .content-wrapper {
@@ -57,13 +60,24 @@ a {
   text-decoration: none;
 }
 
-.to-top-wrapper{
+.to-top-wrapper a{
     text-align: 0;
     padding-top: 0%;
     padding-left: 2%;
     colour: grey;
     position: fixed;
 	font-size: 40px;
+	color: #16a085;
+}
+.nav{
+    margin-top: 20px;
+}
+
+.nav-button{
+    padding: 20px;
+    font-weight: bold;
+    color: #16a085;
+    text-decoration: none;
 }
 
 .item {
@@ -164,7 +178,7 @@ header {
 /*SKILLS SECTION*/
 .skills{
 	text-align: center;
-  	background: grey;
+  	background: #232423;
   	background-size: cover;
   	color:#EBFFE0; 
 }
@@ -238,16 +252,6 @@ header {
      float: right;
 }
 
-.award-left{
-     width: 70%;
-     float: left;
-}
-
-.award-right{
-     width: 30%;
-     float: right;
-}
-
 /*EDUCATION SECTION*/
 .education{
   	background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)),url(img/old-college.jpg) no-repeat fixed;
@@ -260,6 +264,28 @@ header {
 	color: #16a085;
 }
 
+/*GROUP SECTION*/
+
+.groups{
+  	background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)),url(img/scuba.jpg) no-repeat fixed;
+  	background-size: cover;
+  	color:#EBFFE0;
+}
+
+ .groups .details {
+     width: 30%;
+     float: left;
+ }
+
+ .groups .description {
+     width: 70%;
+     float: right;
+ }
+
+.groups .details h3,
+.groups .details h2{
+    padding-bottom: 25px;
+}
 
 /*CONTACT SECTION*/
 
@@ -277,7 +303,7 @@ header {
 
 .social {
 	font-family: "roboto";
-  	width: 50%;
+  	width: 60%;
   	float: right;
   	text-align: right;
   	font-size: 50px;

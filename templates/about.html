@@ -7,13 +7,15 @@
     <A name="top"></A>
 <h1>Alex Kearney</h1>
 <h2>I make things.</h2>
-    <A href="#experience">Experience</A>
-    <A href="#projects">Projects</A>
-    <A href="#awards">Trophy Cabinet</A>
-    <A href="#education">Education</A>
-    <A href="#skills">Skills</A>
-    <A href="#groups">Groups</A>
-    <A href="#contact">Contact</A>
+    <div class="nav">
+        <A class="nav-button" href="#experience">Experience</A>
+        <A class="nav-button" href="#projects">Projects</A>
+        <A class="nav-button" href="#awards">Trophy Cabinet</A>
+        <A class="nav-button" href="#education">Education</A>
+        <A class="nav-button" href="#skills">Skills</A>
+        <A class="nav-button" href="#groups">Groups</A>
+        <A class="nav-button" href="#contact">Contact</A>
+    </div>
 </header>
 {% endblock %}
 
@@ -80,16 +82,6 @@
         </div>
     </section>
 
-    <!-- PROJECTS -->
-    <section class="projects">
-        <A name="projects"></A>
-        <div class="content-wrapper">
-            <p class="icon-topper"><i class="fa fa-wrench"></i></p>
-            <h2>Things I've made.</h2>
-
-        </div>
-    </section>
-
     <!-- AWARDS -->
     <section class="awards">
         <A name="awards"></A>
@@ -107,6 +99,41 @@
                 <p>
                     <strong>A scholarship for 40 women in techonology from Europe, the Middle East, and Africa</strong>
 
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- PROJECTS -->
+    <section class="projects">
+        <A name="projects"></A>
+        <div class="content-wrapper">
+            <p class="icon-topper"><i class="fa fa-wrench"></i></p>
+            <h2>Things I've made.</h2>
+
+        </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section class="education">
+        <A name="education"></A>
+        <div class="content-wrapper">
+            <p class="icon-topper"><i class="fa fa-graduation-cap"></i></p>
+            <h2>Things I've studied.</h2>
+
+            <div class="item">
+                <h3>University of Edinburgh, expected 2016</h3>
+                <h4>Artificial Intelligence and Computer Science</h4>
+                <p>
+                    Description and/or awards. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate voluptas architecto asperiores, natus qui quod suscipit quae, dolorum. Provident minus doloremque a deserunt quam saepe error quibusdam explicabo, possimus aliquam.
+                </p>
+            </div>
+            <div class="item">
+                <h3>Brentwood College School, 2012</h3>
+                <h4>Honours Highschool Diploma, B.C.</h4>
+                <p>
+                    Description and/or awards. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                 </p>
             </div>
         </div>
@@ -153,36 +180,46 @@
         </div>
     </section>
 
-    <!-- EDUCATION -->
-    <section class="education">
-        <A name="education"></A>
-        <div class="content-wrapper">
-            <p class="icon-topper"><i class="fa fa-graduation-cap"></i></p>
-            <h2>Things I've studied.</h2>
-
-            <div class="item">
-                <h3>University of Edinburgh, expected 2016</h3>
-                <h4>Artificial Intelligence and Computer Science</h4>
-                <p>
-                    Description and/or awards. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate voluptas architecto asperiores, natus qui quod suscipit quae, dolorum. Provident minus doloremque a deserunt quam saepe error quibusdam explicabo, possimus aliquam.
-                </p>
-            </div>
-            <div class="item">
-                <h3>Brentwood College School, 2012</h3>
-                <h4>Honours Highschool Diploma, B.C.</h4>
-                <p>
-                    Description and/or awards. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                </p>
-            </div>
-        </div>
-    </section>
 
     <!-- GROUPS -->
     <section class="groups">
         <A name="groups"></A>
-        <div class="content-wrapper">
+        <div class="content-wrapper clearfix">
             <p class="icon-topper"><i class="fa fa-users"></i></p>
             <h2>Things that matter.</h2>
+            <div class="details">
+                <h2>Edinburgh University Hoppers</h2>
+                <h3>President | 2014-2016</h3>
+                <h2>Edinburgh University SocieTEA</h2>
+                <h3>Vice-president, Teah Historian | 2015, 2014</h3>
+                <h2>Scuba-diving</h2>
+                <h2>Model United Nations</h2>
+            </div>
+            <div class="description">
+                <p>
+                    Hoppers is the University of Edinburgh's women's computing club. We're a community that provides support
+                    for women in computing by providing technical workshops and talks throughout the year. I've been a
+                    part of the commitee since 2013 and president since 2014. If you're interested in participating, either
+                    as a member or by giving talks, drop us a line at edinburghhoppers@gmail.com. More information is
+                    available on <a href="http://hoppers.inf.ed.ac.uk/">our site.</a>
+                </p>
+                <p>
+                    The most calm society at the University of Edinburgh. Every thursday we enjoy tea, biscuits, and
+                    good company every thursday in chaplaincy. During the 2013/2014 academic year I was the tea historian,
+                    and I am the vice president for the 2015/2016 academic year. You can find out more about the society
+                    on our <a href="http://edinburghsocietea.co.uk/">web page</a>.
+                </p>
+                <p>A society for women studying technology at the University of Edinburgh</p>
+
+                <p>It was blogged about by my high school: <br>
+                    <a href="http://www.brentwood.bc.ca/news/single-page-news/article/muddle-un/"> VANMUN 2012</a>,
+                    <a href="http://www.brentwood.bc.ca/news/single-page-news/article/brentwood-delegates-are-tops-at-vancouver-model-un/">VANMUN 2011</a>,
+                    <a href="http://www.brentwood.bc.ca/news/single-page-news/article/uvic-model-united-nations/">VICMUN 2011</a>,
+                    <a href="http://www.brentwood.bc.ca/news/single-page-news/article/decorum-delegates-vicmun-2010/">VICMUN 2010</a>,
+                    <a href="http://www.brentwood.bc.ca/news/single-page-news/article/brentwood-juniors-gab-for-gold-at-the-glenlyon-norfolk-start-up-debate/"> and my first debate tournament!</a>
+                </p>
+            </div>
+
         </div>
     </section>
 
@@ -193,6 +230,7 @@
             <h2>Let's chat.</h2>
 
             <div class="social">
+                <a href="mailto:kearney@ualberta.ca"><i class="fa fa-envelope"></i></a>
                 <a href="https://twitter.com/AlexKKearney" title="Twitter"><i class="fa fa-twitter"></i></a>
                 <a href="https://ca.linkedin.com/pub/alexandra-kearney/52/22/591" title="LinkedIn"><i class="fa fa-linkedin"></i></a>
                 <!--<a href="#" title="Instagram"><i class="fa fa-instagram"></i></a>-->
