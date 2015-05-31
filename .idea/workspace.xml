@@ -1,0 +1,594 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ee0be45f-33ec-41ff-bbc1-c550445ce578" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/llc-css-fundamentals.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/framework/css/_mixins.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/framework/css/font-awesome.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/framework/css/highlightjs-themes/docco.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/framework/css/highlightjs-themes/foundation.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/framework/css/highlightjs-themes/github.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/framework/css/highlightjs-themes/googlecode.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/framework/css/highlightjs-themes/mono-blue.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/framework/css/highlightjs-themes/monokai-sublime.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/framework/css/highlightjs-themes/monokai.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/framework/css/highlightjs-themes/vs.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/framework/css/highlightjs-themes/xcode.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/framework/css/slideshow.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/framework/css/theme-llc.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/framework/css/theme-llc.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/framework/css/workshop.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/framework/extras-advanced-selectors.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/framework/extras-animations.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/framework/extras-circles.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/framework/extras-download-btn.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/framework/extras-inline-block.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/framework/extras-negative-margin.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/framework/extras-positioning.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/framework/extras-transform.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/framework/fonts/FontAwesome.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/framework/fonts/fontawesome-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/framework/fonts/fontawesome-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/framework/fonts/fontawesome-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/framework/fonts/fontawesome-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/framework/license.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/framework/sass/_mixins.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/framework/sass/_variables.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/framework/sass/theme-llc.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/framework/sass/workshop.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/framework/scripts/classList.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/framework/scripts/plugins/code-highlight.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/framework/scripts/plugins/css-controls.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/framework/scripts/plugins/css-edit.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/framework/scripts/plugins/css-snippets.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/framework/scripts/plugins/highlight/highlight-8.4.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/framework/scripts/plugins/highlight/highlight.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/framework/scripts/plugins/incrementable.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/framework/scripts/plugins/markdown/markdown.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/framework/scripts/plugins/markdown/marked.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/framework/scripts/prefixfree.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/framework/scripts/slideshow.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/css/animate.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/css/final.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/css/normalize.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/css/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/examples/1-no-css.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/examples/10-skills-section.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/examples/10-skills-section.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/examples/11-icon-fonts.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/examples/11-icon-fonts.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/examples/2-bg-colours.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/examples/2-bg-colours.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/examples/3-typography.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/examples/3-typography.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/examples/4a-content-wrap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/examples/4a-content-wrap.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/examples/4b-content-wrap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/examples/4b-content-wrap.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/examples/5-header.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/examples/5-header.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/examples/6-background.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/examples/6-background.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/examples/7-floats.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/examples/7-floats.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/examples/8-bg.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/examples/8-bg.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/examples/9-css3.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/examples/9-css3.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/examples/extras-animation.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/examples/extras-animation.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/examples/extras-circles.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/examples/extras-circles.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/examples/extras-download-btn.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/examples/extras-download-btn.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/examples/normalize.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/final.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/fonts/Raleway/OFL.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/fonts/Raleway/Raleway-Bold.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/fonts/Raleway/Raleway-ExtraBold.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/fonts/Raleway/Raleway-ExtraLight.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/fonts/Raleway/Raleway-Heavy.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/fonts/Raleway/Raleway-Light.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/fonts/Raleway/Raleway-Medium.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/fonts/Raleway/Raleway-Regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/fonts/Raleway/Raleway-SemiBold.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/fonts/Raleway/Raleway-Thin.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/fonts/Roboto/LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/fonts/Roboto/Roboto-Black.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/fonts/Roboto/Roboto-BlackItalic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/fonts/Roboto/Roboto-Bold.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/fonts/Roboto/Roboto-BoldItalic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/fonts/Roboto/Roboto-Italic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/fonts/Roboto/Roboto-Light.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/fonts/Roboto/Roboto-LightItalic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/fonts/Roboto/Roboto-Medium.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/fonts/Roboto/Roboto-MediumItalic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/fonts/Roboto/Roboto-Regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/fonts/Roboto/Roboto-Thin.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/fonts/Roboto/Roboto-ThinItalic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/images/alhambra-header.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/images/background-1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/images/background-2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/images/background-3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/images/background-4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/images/background-5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/images/profile-generic.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/project/resume.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/cc-by-nc.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/christina-truong.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/logo-llc-white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/logo-llc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/telus-logo-white.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/workshop/1-setup.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/workshop/2-setup.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/workshop/3-setup.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/workshop/4-setup.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/workshop/bloat.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/workshop/box-model-fix.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/workshop/box-model.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/workshop/cant-even.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/workshop/chrome-user-agent.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/workshop/circles.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/workshop/css-zen-garden.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/workshop/css.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/workshop/css.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/workshop/final-project.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/workshop/header.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/workshop/icon-chrome.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/workshop/icon-sublime.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/workshop/line-height.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/workshop/margin-auto.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/workshop/mystery-space.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/workshop/no-css.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/workshop/now-what.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/workshop/shittier.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/workshop/title-transform.png" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/framework/img/background-4.jpg" afterPath="$PROJECT_DIR$/static/img/background-4.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/framework/img/banner-home.jpg" afterPath="$PROJECT_DIR$/static/img/banner-home.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/framework/img/banner-home1.jpg" afterPath="$PROJECT_DIR$/static/img/banner-home1.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/framework/img/banner-home2.jpg" afterPath="$PROJECT_DIR$/static/img/banner-home2.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/framework/img/banner-home3.jpg" afterPath="$PROJECT_DIR$/static/img/banner-home3.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/framework/img/banner-home4.jpg" afterPath="$PROJECT_DIR$/static/img/banner-home4.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/framework/img/profile-generic.jpg" afterPath="$PROJECT_DIR$/static/img/profile-generic.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/project/index.html" afterPath="$PROJECT_DIR$/templates/index.html" />
+    </list>
+    <ignored path="llc-css-fundamentals.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="llc-css-fundamentals" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="app.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
+              <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="about.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/about.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.8674912" vertical-offset="634" max-vertical-offset="1845">
+              <caret line="75" column="84" selection-start-line="75" selection-start-column="84" selection-end-line="75" selection-end-column="84" />
+              <folding>
+                <element signature="n#style#0;n#img#0;n#div#0;n#section#0;n#body#0;n#!!top" expanded="true" />
+                <element signature="n#section#4;n#body#0;n#!!top" expanded="false" />
+                <element signature="n#section#6;n#body#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/base.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-16.25" vertical-offset="0" max-vertical-offset="480">
+              <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="2661" max-vertical-offset="3555">
+              <caret line="187" column="1" selection-start-line="187" selection-start-column="1" selection-end-line="187" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/framework/app.py" />
+        <option value="$PROJECT_DIR$/app.py" />
+        <option value="$PROJECT_DIR$/templates/base.html" />
+        <option value="$PROJECT_DIR$/static/style.css" />
+        <option value="$PROJECT_DIR$/templates/about.html" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="65" />
+    <option name="y" value="-744" />
+    <option name="width" value="1301" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="llc-css-fundamentals" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="llc-css-fundamentals" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="llc-css-fundamentals" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="llc-css-fundamentals" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="llc-css-fundamentals" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="llc-css-fundamentals" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="llc-css-fundamentals" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="llc-css-fundamentals" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="llc-css-fundamentals" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/templates" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/framework/static" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="tests" factoryName="py.test">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="llc-css-fundamentals" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="testToRun" value="" />
+      <option name="keywords" value="" />
+      <option name="params" value="" />
+      <option name="USE_PARAM" value="false" />
+      <option name="USE_KEYWORD" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="llc-css-fundamentals" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="llc-css-fundamentals" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="llc-css-fundamentals" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="llc-css-fundamentals" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Attests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="llc-css-fundamentals" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <list size="0" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ee0be45f-33ec-41ff-bbc1-c550445ce578" name="Default" comment="" />
+      <created>1433029871925</created>
+      <option name="number" value="Default" />
+      <updated>1433029871925</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="65" y="-744" width="1301" height="744" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24980783" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24980783" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
+          <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2661" max-vertical-offset="3555">
+          <caret line="187" column="1" selection-start-line="187" selection-start-column="1" selection-end-line="187" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-16.25" vertical-offset="0" max-vertical-offset="480">
+          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8674912" vertical-offset="634" max-vertical-offset="1845">
+          <caret line="75" column="84" selection-start-line="75" selection-start-column="84" selection-end-line="75" selection-end-column="84" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#div#0;n#section#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#section#4;n#body#0;n#!!top" expanded="false" />
+            <element signature="n#section#6;n#body#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

@@ -1,0 +1,178 @@
+<!-- HEADER -->
+<link rel=stylesheet type=text/css href="{{ url_for('static', filename='style.css') }}">
+{% extends "base.html" %}
+
+{% block header %}
+<header>
+<h1>Alex Kearney</h1>
+<h2>I make things.</h2>
+</header>
+{% endblock %}
+
+{% block body %}
+<body>
+    <!-- ABOUT ME / PROFILE -->
+    <section class="profile">
+        <div class="content-wrapper clearfix">
+            <img src="{{ url_for('static', filename = 'img/profile-generic.jpg') }}"
+                 alt="Alex Kearney"
+                 style="width: 200px; height: 200px;">
+            <div class="summary">
+                <h2>Hello.</h2>
+                <p>I'm a computer science student currently wading through my undergraduate studies at the University of Edinburgh. This site is still a work in progress; hang-tight..</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- WORK EXPERIENCE -->
+    <section class="work-experience">
+        <div class="content-wrapper">
+            <h2>Things I've done.</h2>
+            <div class="item clearfix">
+                <div class="details">
+                    <h4 class="company">University of Alberta</h4>
+                    <h3>Rehabilitation Robotics Intern</h3>
+                    <h4 class="date">Summer 2014 - 2015</h4>
+                    <h3>Reinforcement Learning & Artificial Intelligence Intern</h3>
+                    <h4 class="date">Summer 2013</h4>
+                    <h3>High School Intern</h3>
+                    <h4 class="date">Summer 2011 - 2012</h4>
+                </div>
+                <div class="description">
+                    <p>
+                        <strong>Artificial Intelligence & Rehabilitation Robotics Intern:</strong><br>
+                        During my four month placement I designed and ran novel experiments for contextual learning on a myoelectric prosthetic---or, powered artificial limb. I designed and implemented control system for use on both amputees and able-bodied subjects. Using contextual learning, the arm was able to learn about the user in real-time as they were interacting with their prosthetic: it was able to adapt predictions to new situations while maintaining knowledge of previous tasks.
+                    </p>
+                    <p>
+                        During my four month placement I extended the BENTO Arm---a bionic limb for amputees. I created a simplified system for people of varying programming levels to implement machine learning experiments in real-time, enabling the prosthetic to learn about its wearer in real-time through interaction with their environment.
+                    </p>
+
+                    <p>
+                        <strong>High School Intern:</strong><br>
+                        For two years I participated in the Highschool Internship Programme at the University of Alberta: a six-week research placement in the Reinforcement Learning and Artificial Intelligence lab.During my first internship I and another intern devised an experiment to explore how having RL agent's learn from each other's actions improved learning. During my second internship I independently built a background subtraction program for the and made stand-alone applications for demonstrations during lab tours. I gave presentations for people of varying background knowledge in computing.
+                    </p>
+                </div>
+            </div><!-- close .item -->
+
+            <div class="item clearfix">
+                <div class="details">
+                    <h4 class="company">University of Edinburgh</h4>
+                    <h3>Hackathon Coordinator</h3>
+                    <p class="date">2014</p>
+                </div>
+                <div class="description">
+                    <p>
+                        ILWHACK is hackathon which spans the whole of innovative learning week at the University of Edinburgh. As student coordinator I organized catering, venues, and sponsorship.
+                    </p>
+                </div>
+            </div><!-- close .item -->
+        </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="projects">
+        <div class="content-wrapper">
+            <h2>Things I've made.</h2>
+            <img src="{{ url_for('static', filename = 'img/profile-generic.jpg') }}">
+        </div>
+    </section>
+
+    <!-- AWARDS -->
+    <section class="awards">
+        <div class="content-wrapper">
+            <h2>Things I've won.</h2>
+        </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="skills">
+        <div class="content-wrapper clearfix">
+            <h2>Skills</h2>
+
+            <div class="skills-list">
+                <h3>List Option / Title</h3>
+
+                <div class="columns">
+                    <h4>Best at:</h4>
+                    <ul>
+                        <li><i class="fa fa-check"></i>Python</li>
+                        <li><i class="fa fa-check"></i>Java</li>
+                    </ul>
+                </div>
+
+                <div class="columns">
+                    <h4>Worked with:</h4>
+                    <ul>
+                        <li><i class="fa fa-check"></i>Prolog</li>
+                        <li><i class="fa fa-check"></i>Haskell</li>
+                        <li><i class="fa fa-check"></i>C</li>
+                    </ul>
+                </div>
+
+                <div class="columns">
+                    <h4>Learning:</h4>
+                    <ul>
+                        <li><i class="fa fa-check"></i>PostgresSQL</li>
+                        <li><i class="fa fa-check"></i>HTML</li>
+                        <li><i class="fa fa-check"></i>CSS</li>
+                        <li><i class="fa fa-check"></i>Django</li>
+                        <li><i class="fa fa-check"></i>Flask</li>
+                    </ul>
+                </div>
+            </div><!-- close .skills-list -->
+        </div>
+    </section>
+
+
+    <!-- EDUCATION -->
+    <section class="education">
+        <div class="content-wrapper">
+            <h2>Where I've studied.</h2>
+
+            <div class="item">
+                <h3>University of Edinburgh, expected 2016</h3>
+                <h4>Artificial Intelligence and Computer Science</h4>
+                <p>
+                    Description and/or awards. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate voluptas architecto asperiores, natus qui quod suscipit quae, dolorum. Provident minus doloremque a deserunt quam saepe error quibusdam explicabo, possimus aliquam.
+                </p>
+            </div>
+            <div class="item">
+                <h3>Brentwood College School, 2012</h3>
+                <h4>Honours Highschool Diploma, B.C.</h4>
+                <p>
+                    Description and/or awards. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- CONTACT INFO -->
+    <section class="contact">
+        <div class="content-wrapper clearfix">
+            <h2>Let's chat.</h2>
+
+            <div class="social">
+                <a href="https://twitter.com/AlexKKearney" title="Twitter"><i class="fa fa-twitter"></i></a>
+                <a href="https://ca.linkedin.com/pub/alexandra-kearney/52/22/591" title="LinkedIn"><i class="fa fa-linkedin"></i></a>
+                <!--<a href="#" title="Instagram"><i class="fa fa-instagram"></i></a>-->
+                <a href="https://github.com/Kongaloosh" title="Github"><i class="fa fa-github-alt"></i></a>
+                <!--<a href="#" title="Facebook"><i class="fa fa-facebook"></i></a>-->
+                <a href="https://plus.google.com/+AlexandraKearney/" title="Google+"><i class="fa fa-google-plus"></i></a>
+            </div>
+
+            <p><a href="mailto:hello@your-email.com">kearney@ualberta.ca</a></p>
+            <!--<p>416.123.4567</p>-->
+            <p>
+                Edinburgh, Scotland <br>
+                or <br>
+                Edmonton, Alberta, Canada
+            </p>
+
+            <footer>
+                <p class="copyright">Copyright &#169; 2015 Alexandra Kearney</p>
+            </footer>
+        </div>
+    </section>
+</body>
+{% endblock %}

@@ -1,0 +1,231 @@
+
+/* EVERYTHING */
+/*------------*/
+
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+	background: url(img/alhambra-header.jpg) no-repeat fixed 50%;
+	background-size: cover; /*updates the image to be cover size and re-crops to match aspect ratio*/	
+}
+
+p{
+	font-family: "roboto";
+}
+
+h1, h2, h3 {
+    font-weight: 400;
+    margin: 0;
+}
+
+h2{
+	font-size: 32px;
+}
+
+a {
+	transition: all 0.5s;
+}
+
+.content-wrapper {
+	max-width: 1000px;
+	width: 90%;
+	margin: 0 auto;
+	padding: 60px 0;
+}
+
+.clearfix:after { /* clearfix */
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.download {
+  background: #16a085;
+  position: fixed;
+  color: white;
+  top: 0;
+  right: 0;
+  display: block;
+  padding: 18px;
+  text-decoration: none;
+}
+
+.item {
+    border-bottom: 1px solid #ccc;
+}
+
+.item:last-child {
+    border-bottom: none;
+}
+
+/* HEADER */
+header {
+    text-align: center;
+    padding: 150px 0;
+    font-family: Courier, Helvetica;
+	color:#EBFFE0;
+}
+
+/*PROFILE SECTION*/
+.profile{
+ 	background: #fefefc;
+ 	background: rgba(0,0,0,.7);
+ 	color:#EBFFE0; 
+}
+
+.profile h2:hover {
+  transform: rotate(4deg);
+}
+
+.profile h1,
+.profile h3,
+.profile h2{
+	font-family: Courier;
+	/*color:#F5F5F0;*/
+}
+
+.profile h2 {
+    border: none;
+    display: inline-block;
+    padding: 10px 20px;
+    background: #16a085;
+}
+
+ .profile img {
+    float: left;
+    width: 27%;
+    margin-right: 3%;
+ }
+ 
+ .profile img {
+    border-radius: 50%;
+}
+
+ .summary {
+     width: 70%;
+     float: right;
+ }
+
+/*WORK SECTION*/
+.work-experience h1,
+.work-experience h2{
+	font-family: Courier;
+	color:#F5F5F0;
+}
+
+.work-experience h2{
+	border-bottom: 1px solid #ccc;
+	margin-bottom: 30px;
+	color: #16a085;
+}
+
+.work-experience{
+	background: #fefefc;
+ 	background: rgba(0,0,0,1);
+ 	color:#EBFFE0; 
+}
+
+ .work-experience .details {
+     width: 30%;
+     float: left;
+ }
+
+ .work-experience .description {
+     width: 70%;
+     float: right;
+ }
+
+/*DETAILS*/
+.details {
+	font-family: Courier;	
+}
+
+/*SKILLS SECTION*/
+.skills{
+	text-align: center;
+  	background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)),url(img/background-1.jpg) no-repeat fixed;
+  	background-size: cover;
+  	color:#EBFFE0; 
+}
+
+.list-float{
+	/*float: left;*/
+	width: 25%; 
+}
+
+.skills h1,
+.skills h2,
+.skills h3{
+	text-align: center;
+}
+
+.skills h2{
+	border-bottom: 1px solid #ccc;
+	margin-bottom: 30px;
+	color: #16a085;
+}
+
+.skills .columns {
+  width: 33.33%;
+  float: left;
+  margin: 0 auto;
+}
+
+.skills ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.list-float{
+	display: inline;
+	text-align: center;
+}
+
+/*EDUCATION SECTION*/
+.education{
+ 	background: #FFFFFF;
+}
+
+.education h2{
+	border-bottom: 1px solid #ccc;
+	margin-bottom: 30px;
+	color: #16a085;
+}
+
+/*CONTACT SECTION*/
+
+.contact h2{
+	border-bottom: 1px solid #ccc;
+	margin-bottom: 30px;
+	color: #16a085;
+}
+
+.contact{
+	color:#FFFFFF;
+	background: #000000;
+ 	/*background: rgba(0,0,0,0.1);*/
+}
+
+.social {
+	font-family: "roboto";
+  	width: 50%;
+  	float: right;
+  	text-align: right;
+  	font-size: 50px;
+}
+
+.contact a{
+	color: #16a085;
+	padding-left: 10%;
+}
+
+.contact a:hover{
+	color: white;
+}
+
