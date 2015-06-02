@@ -35,6 +35,7 @@ a {
 
 }
 
+/* ALL SECTIONS */
 .content-wrapper {
 	max-width: 1000px;
 	width: 90%;
@@ -49,8 +50,15 @@ a {
   clear: both;
 }
 
+.section-header{
+    color: #007A00;
+    font-family: courier;
+    padding-bottom: 20px;
+
+}
+
 .download {
-  background: #16a085;
+  background: #007A00;
   position: fixed;
   color: white;
   top: 0;
@@ -67,7 +75,7 @@ a {
     colour: grey;
     position: fixed;
 	font-size: 40px;
-	color: #16a085;
+	color: #007A00;
 }
 .nav{
     margin-top: 20px;
@@ -76,7 +84,7 @@ a {
 .nav-button{
     padding: 20px;
     font-weight: bold;
-    color: #16a085;
+    color: #007A00;
     text-decoration: none;
 }
 
@@ -93,6 +101,11 @@ a {
     font-size: 50px;te
 }
 
+.details h3{
+  font-family: courier;
+  color:#007A00;
+}
+
 /* HEADER */
 header {
     text-align: center;
@@ -104,7 +117,7 @@ header {
 /*PROFILE SECTION*/
 .profile{
  	background: #fefefc;
- 	background: rgba(0,0,0,.7);
+ 	background: rgba(0,0,0,.5);
  	color:#EBFFE0; 
 }
 
@@ -123,7 +136,7 @@ header {
     border: none;
     display: inline-block;
     padding: 10px 20px;
-    background: #16a085;
+    background: #007A00;
 }
 
  .profile img {
@@ -151,7 +164,7 @@ header {
 .work-experience h2{
 	border-bottom: 1px solid #ccc;
 	margin-bottom: 30px;
-	color: #16a085;
+	color: #007A00;
 }
 
 .work-experience{
@@ -197,7 +210,7 @@ header {
 .skills h2{
 	border-bottom: 1px solid #ccc;
 	margin-bottom: 30px;
-	color: #16a085;
+	color: #007A00;
 }
 
 .skills .columns {
@@ -220,15 +233,19 @@ header {
  	background: #FFFFFF;
 }
 
- .work-experience .details {
-     width: 60%;
-     float: left;
- }
+.projects .columns {
+  width: 25%;
+  float: left;
+  margin: 0 auto;
+}
 
- .work-experience .description {
-     width: 40%;
-     float: right;
- }
+.projects-list h4
+.projects-list h3
+.projects-list h2
+.projects-list h1{
+  text-align: center;
+}
+
 
 /*AWARD SECTION*/
 .awards{
@@ -261,13 +278,13 @@ header {
 .education h2{
 	border-bottom: 1px solid #ccc;
 	margin-bottom: 30px;
-	color: #16a085;
+	color: #007A00;
 }
 
 /*GROUP SECTION*/
 
 .groups{
-  	background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)),url(img/scuba.jpg) no-repeat fixed;
+  	background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),url(img/scuba.jpg) no-repeat fixed;
   	background-size: cover;
   	color:#EBFFE0;
 }
@@ -292,7 +309,7 @@ header {
 .contact h2{
 	border-bottom: 1px solid #ccc;
 	margin-bottom: 30px;
-	color: #16a085;
+	color: #007A00;
 }
 
 .contact{
@@ -310,7 +327,7 @@ header {
 }
 
 .contact a{
-	color: #16a085;
+	color: #007A00;
 	padding-left: 10%;
 }
 
