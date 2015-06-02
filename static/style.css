@@ -1,4 +1,5 @@
 
+/*------------*/
 /* EVERYTHING */
 /*------------*/
 
@@ -10,13 +11,22 @@ html {
     box-sizing: inherit;
 }
 
+.clearfix:after { /* clearfix */
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/*------------*/
+/* GLOBAL VALS*/
+/*------------*/
 body {
 	background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)),url(img/edmonton-header.jpg) no-repeat fixed 50%;
 	background-size: cover; /*updates the image to be cover size and re-crops to match aspect ratio*/	
 }
 
 p{
-	font-family: "roboto";
+	font-family: "Helvetica";
 }
 
 h1, h2, h3 {
@@ -24,30 +34,27 @@ h1, h2, h3 {
     margin: 0;
 }
 
-h2{
+a { 
+  transition: all 0.5s;
+  text-decoration: none;
+  color: #16a085;
+
+}
+
+/*h2{
 	font-size: 32px;
-}
+}*/
 
-a {
-	transition: all 0.5s;
-	text-decoration: none;
-	color: #16a085;
-
-}
-
+/*--------------*/
 /* ALL SECTIONS */
+/*--------------*/
+
 .content-wrapper {
 	max-width: 1000px;
 	width: 90%;
 	margin: 0 auto;
 	padding: 60px 0;
 
-}
-
-.clearfix:after { /* clearfix */
-  content: "";
-  display: table;
-  clear: both;
 }
 
 .section-header{
@@ -57,6 +64,7 @@ a {
 
 }
 
+/*download button*/
 .download {
   background: #007A00;
   position: fixed;
@@ -68,6 +76,7 @@ a {
   text-decoration: none;
 }
 
+/*to top jumper*/
 .to-top-wrapper a{
     text-align: 0;
     padding-top: 0%;
@@ -77,6 +86,9 @@ a {
 	font-size: 40px;
 	color: #007A00;
 }
+
+
+/*Navigation elements*/
 .nav{
     margin-top: 20px;
 }
@@ -88,6 +100,8 @@ a {
     text-decoration: none;
 }
 
+/*for the listed elements in sections*/
+/*see: the description-detail pairs*/
 .item {
     border-bottom: 1px solid #ccc;
 }
@@ -96,21 +110,28 @@ a {
     border-bottom: none;
 }
 
+/*sectional icons. (wrench, star, .etc)*/
 .icon-topper{
     text-align: center;
     font-size: 50px;te
 }
 
+
 .details h3{
-  font-family: courier;
-  color:#007A00;
+  
+}
+
+/*sectional header*/
+section h2{
+  border-bottom: 1px solid #ccc;
+  margin: 20px;
 }
 
 /* HEADER */
 header {
-    text-align: center;
-    padding: 150px 0;
-    font-family: Courier, Helvetica;
+  text-align: center;
+  padding: 150px 0;
+  font-family: Courier, Helvetica;
 	color:#EBFFE0;
 }
 
@@ -155,22 +176,14 @@ header {
  }
 
 /*WORK SECTION*/
-.work-experience h1,
-.work-experience h2{
-	font-family: Courier;
-	color:#F5F5F0;
-}
 
 .work-experience h2{
-	border-bottom: 1px solid #ccc;
-	margin-bottom: 30px;
 	color: #007A00;
 }
 
 .work-experience{
-	background: #fefefc;
- 	background: rgba(0,0,0,1);
- 	color:#EBFFE0; 
+	background: black;
+ 	color:#EBFFE0;
 }
 
  .work-experience .details {
