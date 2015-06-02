@@ -26,7 +26,7 @@ body {
 }
 
 p{
-	font-family: "Helvetica";
+	font-family: "roboto";
 }
 
 h1, h2, h3 {
@@ -53,9 +53,21 @@ a {
 
 .details p{
   margin-bottom: 20px;
+  font-size: 15px;
+  font-family:  "Merriweather", serif;
+  font-weight: 400;
 }
 
+.details h3{
+  font-family: "Lucida Console", Monaco, monospace;
+}
 
+.details h4{
+  font-weight: 200;
+  font-family: "Century Gothic", sans-serif;
+  text-transform: uppercase;
+
+}
 
 /*h2{
 	font-size: 32px;
@@ -76,6 +88,7 @@ a {
 .section-header{
     color: #007A00;
     font-family: courier;
+    font-size: 32px;
     padding-bottom: 20px;
 
 }
@@ -203,12 +216,12 @@ header {
 }
 
  .work-experience .details {
-     width: 30%;
+     width: 40%;
      float: left;
  }
 
  .work-experience .description {
-     width: 70%;
+     width: 60%;
      float: right;
  }
 
@@ -309,6 +322,24 @@ header {
 	margin-bottom: 30px;
 	color: #007A00;
 }
+
+.school h3{
+  color: #99EB99;
+  font-family: "Lucida Console", Monaco, monospace;
+}
+.school h3,
+.school h4{
+  margin-bottom: 2px;
+  margin-top: 2px;
+}
+
+.school h4{
+  margin-bottom: 20px;
+  font-size: 15px;
+  font-family: "Century Gothic", sans-serif;
+  font-weight: 400;
+}
+
 
 /*GROUP SECTION*/
 
