@@ -1,3 +1,12 @@
+/* 
+I built this from scratch!
+
+Does this need to be refactored? 
+  yes.
+
+I'm not a designer; easy, tiger.
+*/
+
 
 /*------------*/
 /* EVERYTHING */
@@ -65,7 +74,7 @@ a {
 .details h4{
   font-weight: 200;
   font-family: "Century Gothic", sans-serif;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
 
 }
 
@@ -301,9 +310,9 @@ header {
      float: left;
 }
 
-.awards .details h3,
-.awards .details h2{
-    padding-bottom: 25px;
+
+.awards .description p{
+  font-family: "Century Gothic", sans-serif;
 }
 
 .awards .description {
@@ -344,7 +353,7 @@ header {
 /*GROUP SECTION*/
 
 .groups{
-  	background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),url(img/scuba.jpg) no-repeat fixed;
+  	background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)),url(img/scuba.jpg) no-repeat fixed;
   	background-size: cover;
   	color:#EBFFE0;
 }
