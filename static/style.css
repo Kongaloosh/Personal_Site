@@ -404,3 +404,6 @@ header {
 	color: white;
 }
 
+.description p{
+  font-family: "Century Gothic", sans-serif;
+}
