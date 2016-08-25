@@ -15,6 +15,7 @@
         <A class="nav-button" href="#skills">Skills</A>
         <A class="nav-button" href="#groups">Groups</A>
         <A class="nav-button" href="#contact">Contact</A>
+	<A class="nav-button" href="http://kongaloosh.com">Blog</A>
     </div>
 </header>
 {% endblock %}
@@ -26,11 +27,18 @@
     <section class="profile">
         <div class="content-wrapper clearfix">
             <img src="{{ url_for('static', filename = 'img/profile-generic.jpg') }}"
-                 alt="Alex Kearney"
+                 class="u-photo"
+		 alt="Alex Kearney"
                  style="width: 200px; height: 200px;">
             <div class="summary">
                 <h2>Hello.</h2>
-                <p>I'm a computer science student currently wading through my undergraduate studies at the University of Edinburgh. I'm interested in how we can apply machine learning to robotics; particularly, how machine learning can improve control of prosthetics.</p>
+                <p>
+                    I'm a Computer Sceince graduate student currently at the <a href="http://www.ualberta.ca">University of Alberta</a>. I spend most of my time working on Reinforcement Learning and artificial Intelligence. Specifically, I look at how machine learning can improve the control of bionic limbs, adapting to their users as they go about their day-to-day lives.
+                </p>
+
+                <p>
+                    When I'm not in the lab, you can find me hanging out with the <a href="http://indeweb.com">Indieweb</a> community, at Homebrew Website Clubs, drinking tea, and walking my dachsund.   
+                </p>
             </div>
         </div>
     </section>
@@ -99,6 +107,20 @@
         <div class="content-wrapper clearfix">
             <p class="icon-topper"><i class="fa fa-trophy icon-topper"></i></p>
             <h2 class="section-header">Things I've won. </h2>
+
+            <div class="item clearfix">
+                <div class="details">
+                    <h3>Best Final Year Performance by a Female Undergraduate Student</h3>
+                    <p class="date">2016</p>
+                </div>
+                <div class="description">
+                    <p>
+                        Awarded by the ethics and dviersity committe of the informatics department, this award was for achieving the highest academic average amongst female students.
+                        <!-- Add some link which describes this -->
+                    </p>
+                </div>
+            </div><!-- close .item -->
+
             <div class="item clearfix">
                 <div class="details">
                     <h3>Google Anita Borg Memorial Scholarship: EMEA</h3>
@@ -214,12 +236,22 @@
             <h2 class="section-header">Things I've studied.</h2>
 
             <div class="item clearfix school">
-                <h3>University of Edinburgh, expected 2016</h3>
-                <h4>Artificial Intelligence and Computer Science</h4>
+                <h3>University of Alberta, Present</h3>
+                <h4>Msc. Computer Science</h4>
                 <p>
-                    During my degree program I've focused on Machine Learning and Natural Language Processing. I'll be working on shared control between humans and robots for my honours project. 
+                    I'm  a student of 
                 </p>
             </div>
+
+            <div class="item clearfix school">
+                <h3>University of Edinburgh, 2016</h3>
+                <h4>Bsc. Artificial Intelligence and Computer Science, First Class with Honors</h4>
+                <p>
+                    During my degree program I've focused on Machine Learning and Natural Language Processing. For my honors project I looked at how we can adjust machine-learning parameters online and in real-time. 
+                    <!-- Talk about why this is cool? -->
+                </p>
+            </div>
+
             <div class="item clearfix school">
                 <h3>Brentwood College School, 2012</h3>
                 <h4>Honours Highschool Diploma, B.C.</h4>
@@ -245,6 +277,7 @@
                     <ul>
                         <li><i class="fa fa-check"></i>Python</li>
                         <li><i class="fa fa-check"></i>Java</li>
+                        <li><i class="fa fa-check"></i>Flask</li>
                     </ul>
                 </div>
 
@@ -262,7 +295,6 @@
                     <h4>Learning:</h4>
                     <ul>
                         <li><i class="fa fa-check"></i>PostgresSQL</li>
-                        <li><i class="fa fa-check"></i>Flask</li>
                         <li><i class="fa fa-check"></i>Prolog</li>
                         <li><i class="fa fa-check"></i>Haskell</li>
                         <li><i class="fa fa-check"></i>C</li>
@@ -292,6 +324,27 @@
                         part of the committee since 2013 and president since 2014. If you're interested in participating, either
                         as a member or by giving talks, drop us a line at edinburghhoppers@gmail.com. More information is
                         available on <a href="http://hoppers.inf.ed.ac.uk/">our site.</a>
+                    </p>
+                </div>
+            </div><!-- close .item -->
+
+            <div class="item clearfix">
+                <div class="details"> <!-- hoppers details -->
+                    <h3>Indieweb Community and Homebrew Website Club</h3>
+                    <h4 class="date">Meetup co-coordinator 2015-2016</h4>
+                </div>
+                <div class="description">
+                    <p>
+                        The indeweb is a community of people building thier own websites. The indieweb values:
+                        <ul>
+                            <li>Owning your own data.</li>
+                            <li>Having control over what you publish, how it's shown, and who sees it.</li>
+                            <li>Self-hosting.</li>
+                        </ul>
+                        In 2015 I built my own Indieweb site. Later in the year, I started co-coordinating the weekly meetups in Edinburgh with local enthusiasts.
+
+                        Now that I'm in back in Edmonton, I'm looking to start a local meetup. If you're interested, <a href="#contact">drop me a line</a>.
+
                     </p>
                 </div>
             </div><!-- close .item -->
@@ -349,7 +402,7 @@
             <h2 class="section-header">Let's chat.</h2>
 
             <div class="social">
-                <a rel="me" href="mailto:kearney@ualberta.ca"><i class="fa fa-envelope"></i></a>
+                <a rel="me" href="hi@alexkearney.com"><i class="fa fa-envelope"></i></a>
                 <a rel="me" href="https://twitter.com/AlexKKearney" title="Twitter"><i class="fa fa-twitter"></i></a>
                 <a rel="me" href="https://ca.linkedin.com/pub/alexandra-kearney/52/22/591" title="LinkedIn"><i class="fa fa-linkedin"></i></a>
                 <!--<a href="#" title="Instagram"><i class="fa fa-instagram"></i></a>-->
@@ -358,7 +411,7 @@
                 <a rel="me" href="https://plus.google.com/+AlexandraKearney/" title="Google+"><i class="fa fa-google-plus"></i></a>
             </div>
 
-            <p><a href="mailto:hello@your-email.com">kearney@ualberta.ca</a></p>
+            <p><a href="mailto:hi@alexkearney.com">hi@alexkearney.com</a></p>
             <!--<p>416.123.4567</p>-->
             <p>
                 Edinburgh, Scotland <br>
